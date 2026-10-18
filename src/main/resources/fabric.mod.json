@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lowend",
+  "version": "${version}",
+  "name": "LowEnd Renderer",
+  "description": "Rendering performance mod for very old GPUs (OpenGL 2.1 class). v0.2: GL probe, overlay, entity/block-entity distance culling.",
+  "authors": [
+    "you"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lowend.LowEndClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  },
+  "mixins": [
+    "lowend.mixins.json"
+  ]
+}

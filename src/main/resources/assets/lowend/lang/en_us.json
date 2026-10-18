@@ -1,0 +1,5 @@
+{
+  "key.lowend.toggle": "Toggle LowEnd overlay",
+  "key.lowend.probe": "GPU/CPU bottleneck probe on/off",
+  "category.lowend": "LowEnd Renderer"
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lowend.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "EntityRenderDispatcherMixin",
+    "BlockEntityRenderDispatcherMixin",
+    "ParticleManagerMixin",
+    "SpriteMixin",
+    "MinecraftClientMixin",
+    "WorldRendererMixin",
+    "ChunkBuilderMixin",
+    "BlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

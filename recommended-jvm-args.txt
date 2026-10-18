@@ -1,0 +1,5 @@
+Java arguments to try (SKLauncher / any launcher -> JVM arguments), 6 GB RAM machine:
+
+-Xms1G -Xmx2G -XX:+UseG1GC -XX:MaxGCPauseMillis=50 -XX:+ParallelRefProcEnabled -XX:+DisableExplicitGC
+
+Try -Xmx3G only if the game runs out of memory. Do not give Minecraft all 6 GB.
